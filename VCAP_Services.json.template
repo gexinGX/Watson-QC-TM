@@ -1,0 +1,34 @@
+{
+   "natural_language_classifier": [
+      {
+         "name": "NLC-service",
+         "label": "natural_language_classifier",
+         "plan": "standard",
+         "credentials": {
+            "url": "https://gateway.watsonplatform.net/natural-language-classifier/api",
+            "username": "XXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            "password": "XXXXXXXXXXXX"
+         }
+      }
+   ],
+  "dashDB" : [ {
+    "name" : "dashDB-service",
+    "label" : "dashDB",
+    "plan" : "Entry",
+    "credentials" : {
+      "port" : XXXXXXXXX,
+      "db" : "XXXXXXXXX",
+      "username" : "XXXXXXXXX",
+      "ssljdbcurl" : "XXXXXXXXX",
+      "host" : "XXXXXXXXX",
+      "https_url" : "XXXXXXXXX",
+      "dsn" : "XXXXXXXXX",
+      "hostname" : "XXXXXXXXX",
+      "jdbcurl" : "XXXXXXXXX",
+      "ssldsn" : "XXXXXXXXX",
+      "uri" : "XXXXXXXXX",
+      "password" : "XXXXXXXXXXXX"
+    }
+      }
+   ]
+}

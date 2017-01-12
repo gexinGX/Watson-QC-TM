@@ -1,0 +1,87 @@
+{
+    "dashDB": [
+        {
+            "credentials": {
+                "port": 50000,
+                "db": "BLUDB",
+                "username": "dash6620",
+                "ssljdbcurl": "jdbc:db2://dashdb-entry-yp-dal09-09.services.dal.bluemix.net:50001/BLUDB:sslConnection=true;",
+                "host": "dashdb-entry-yp-dal09-09.services.dal.bluemix.net",
+                "https_url": "https://dashdb-entry-yp-dal09-09.services.dal.bluemix.net:8443",
+                "dsn": "DATABASE=BLUDB;HOSTNAME=dashdb-entry-yp-dal09-09.services.dal.bluemix.net;PORT=50000;PROTOCOL=TCPIP;UID=dash6620;PWD=JdF8EqZZrxPE;",
+                "hostname": "dashdb-entry-yp-dal09-09.services.dal.bluemix.net",
+                "jdbcurl": "jdbc:db2://dashdb-entry-yp-dal09-09.services.dal.bluemix.net:50000/BLUDB",
+                "ssldsn": "DATABASE=BLUDB;HOSTNAME=dashdb-entry-yp-dal09-09.services.dal.bluemix.net;PORT=50001;PROTOCOL=TCPIP;UID=dash6620;PWD=JdF8EqZZrxPE;Security=SSL;",
+                "uri": "db2://dash6620:JdF8EqZZrxPE@dashdb-entry-yp-dal09-09.services.dal.bluemix.net:50000/BLUDB",
+                "password": "JdF8EqZZrxPE"
+            },
+            "syslog_drain_url": null,
+            "label": "dashDB",
+            "provider": null,
+            "plan": "Entry",
+            "name": "dashDB-kt",
+            "tags": [
+                "big_data",
+                "ibm_created",
+                "ibm_dedicated_public"
+            ]
+        }
+    ],
+    "natural_language_classifier": [
+        {
+            "credentials": {
+                "url": "https://gateway.watsonplatform.net/natural-language-classifier/api",
+                "password": "YWD2AJuPhjNj",
+                "username": "aa42915e-9384-49ca-b4c2-c52674b87073"
+            },
+            "syslog_drain_url": null,
+            "label": "natural_language_classifier",
+            "provider": null,
+            "plan": "standard",
+            "name": "NLC-SDM",
+            "tags": [
+                "watson",
+                "ibm_created",
+                "ibm_dedicated_public"
+            ]
+        }
+    ],
+    "AvailabilityMonitoring": [
+        {
+            "credentials": {
+                "pass": "f5749ddd-b89f-4529-b768-8c2e53226d6c",
+                "id": "93de7c51-227f-4a8f-831f-7cc7953b1ed5",
+                "url": "https://perfbroker.ng.bluemix.net/1.0/credentials/93de7c51-227f-4a8f-831f-7cc7953b1ed5"
+            },
+            "syslog_drain_url": null,
+            "label": "AvailabilityMonitoring",
+            "provider": null,
+            "plan": "Lite",
+            "name": "availability-monitoring-auto",
+            "tags": [
+                "ibm_created",
+                "bluemix_extensions",
+                "dev_ops"
+            ]
+        }
+    ],
+    "text_to_speech": [
+        {
+            "credentials": {
+                "url": "https://stream.watsonplatform.net/text-to-speech/api",
+                "password": "65AYZdd6p6LB",
+                "username": "4c683d74-5727-4876-825f-9757221b3564"
+            },
+            "syslog_drain_url": null,
+            "label": "text_to_speech",
+            "provider": null,
+            "plan": "standard",
+            "name": "TTS-SDM",
+            "tags": [
+                "watson",
+                "ibm_created",
+                "ibm_dedicated_public"
+            ]
+        }
+    ]
+}

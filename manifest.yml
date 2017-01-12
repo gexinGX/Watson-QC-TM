@@ -1,0 +1,21 @@
+declared-services:
+  NLC-name:
+    label: natural_language_classifier
+    plan: standard
+  dashDB-name:
+    label: dashDB
+    plan: Entry
+  TTS-name:
+    label: text_to_speech
+    plan: standard
+applications:
+- services:
+  - NLC-SDM
+  - dashDB-kt
+  - TTS-SDM
+  name: Watson-QC-TM
+  host: Watson-QC-TM
+  domain: mybluemix.net
+  command: node app.js
+  path: .
+  memory: 256M
